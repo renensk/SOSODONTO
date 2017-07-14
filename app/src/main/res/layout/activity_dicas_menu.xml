@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.renan.sosodonto.dicas_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_screen"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:shadowRadius="0"
+            android:text="@string/voltar"
+            android:onClick="finishActivity"/>
+
+        <Button
+            android:id="@+id/menudicas1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_border"
+            android:text="Para crianças"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:layout_weight="0.19"
+            android:onClick="dicasCrianca"/>
+
+        <Button
+            android:id="@+id/menudicas2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_border"
+            android:text="Para Adultos"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:layout_weight="0.19"
+            android:onClick="dicasAdulto"/>
+
+        <Button
+            android:id="@+id/menudicas3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/button_border"
+            android:text="Especialidades Odontológicas"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:layout_weight="0.19" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="30dp"
+            android:text="@string/menudicas"
+            android:textSize="20dp"
+            android:layout_weight="0.84" />
+
+
+    </LinearLayout>
+
+
+    
+</ScrollView>

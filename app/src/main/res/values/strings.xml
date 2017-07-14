@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SOS Odonto</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+
+    <string name="start">Começar</string>
+    <string name="prev">Voltar</string>
+    <string name="next">Próximo</string>
+    <string name="finish">Finalizar</string>
+
+    <string name="slide_1_desc">Olá, Para podermos ajudar você, precisamos de algumas informações básicas.</string>
+
+    <string name="slide_2_1">Nome</string>
+    <string name="slide_2_2">Data de Nascimento</string>
+
+    <string name="slide_3_title">Horários de alimentação</string>
+
+    <string name="voltar">&#60; Voltar</string>
+
+    <string name="menu_1">Meus horários</string>
+    <string name="menu_2">Dicas de escovação</string>
+    <string name="menu_3">Encontre um dentista</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="menudicas">"Cuidado! A escolha correta da escova \nde dentes faz toda a diferença na \neficácia da escovação! \n
+Em geral, você deve dar preferência \nas escovas de base arredondada, \nde cerdas macias e de superfície \nplana, com uma cabeça de tamanho \nque permita alcançar os últimos \ndentes. \n
+Opa! Você é usuário de aparelhos \nortodônticos ou implantes? \nPara você, são indicados modelos \nespeciais de escova para higiene \nbucal. Consulte seu dentista.\n
+Também é extremamente necessário \na limpeza da língua, que deve ser \nfeita ao menos uma vez por dia com \na ajuda de um limpador de língua.\n
+Para complementar a escovação e \nfazer uma higiene bucal adequada, \né importante utilizar o fio dental! \nSem ele, é impossível remover o \nacúmulo da placa entre os dentes, \no que pode causar cáries, tártaro e \ngengivite, nós não queremos isso, \nnão é?\n
+Lembrando que para escovar os \ndentes não se deve aplicar força! \nPara higiene correta existem técnicas \nde escovação, vamos saber um \npouco mais sobre isso?"</string>
+
+</resources>

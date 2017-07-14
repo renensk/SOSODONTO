@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.renan.sosodonto.dicas_criancas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/bg_screen"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:shadowRadius="0"
+            android:text="@string/voltar"
+            android:onClick="finishActivity"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="TÉNICAS DE ESCOVAÇÃO PARA CRIANÇAS"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="Posição de Starkey"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text=" Mamãe, papai, vovô, vovó, titia, titio,\n você que tem crianças em casa de \naté 5 anos e tem dificuldade de \nescovar os dentinhos, a indicação \npara você é realizar a \nPosição de Starkey!\n
+Posicione a criança de frente para o \nambiente e de costas para você e \nfaça com que ela encoste a cabeça \nem você."/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_centerInParent="true"
+            app:srcCompat="@drawable/c1_min" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="A criança deve ficar com a cabeça \ninclinada para trás, viu?"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="50dp"
+            app:srcCompat="@drawable/c2_min" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Nessa posição, você pode realizar a \ntécnicas de escovação de Fones ou \nde Stillman Modificada."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:text="Técnica de Fones"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Essa técnica é indicada para \ncrianças em idade pré-escolar, \naté 6 anos, ou para pessoas \nque têm pouco tempo para realizar \na escovação durante o dia."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="A escova é posicionada num \nângulo reto em relação aos \ndentes (perpendicular)."/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Na frente e atrás dos dentes: \nmovimentos circulares envolvendo \nde dois a três dentes. \nPara incentivar a criança, \npode-se dizer que são \nmovimentos de bolinha!"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Em cima dos dentes: movimentos \nântero-posterior (vaivém). \nPara incentivar a criança, pode-se \ndizer que são movimentos de trenzinho! "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="Para limpar a gengiva: \nposiciona-se a escova em 45º \ncom a gengiva e inclina-se a escova \nem direção a ponta dos dentes. \nPara incentivar a criança, \npode-se dizer que são movimentos \nde vassourinha!."/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:text="Técnica de Stillman"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Nessa técnica, a escova é posicionada formando um ângulo de 45° com a gengiva e as cerdas são deslizadas para a ponta dos dentes.
+    Realiza-se movimentos curtos, mas prolongados."/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Na frente e atrás dos dentes: escova posicionada verticalmente."/>
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Em cima dos dentes: movimentos de vaivém."/>
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:text="Técnica de Stillman Modificada"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Essa técnica é indicada para crianças com coordenação motora interessadas, crianças acima de 7 anos e também para adultos."/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Na frente e atrás dos dentes: escova posicionada verticalmente."/>
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Em cima dos dentes: movimentos de vaivém."/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Todos os dentes e faces: ação vibratória das cerdas com movimentos giratórios da escova."/>
+
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:text="Técnica de Scrub “esfregar”"/>
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="Essa técnica é indicada para pacientes que não estão habituados com os cuidados de higiene bucal e não conhecem outras técnicas, devido à sua simplicidade.
+    A escova deve ser posicionada num ângulo reto em relação aos dentes, com movimentos para frente e para trás (movimentos de esfregação).
+Para facilitar a aprendizagem, o paciente pode manter a boca aberta durante a escovação, para visualizar e entender os movimentos."/>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <Button
+        android:id="@+id/menu1"
+        android:layout_width="356dp"
+        android:layout_height="79dp"
+        android:background="@drawable/button_border"
+        android:text="@string/menu_1"
+        android:textSize="24dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="182dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/menu3"
+        android:layout_alignStart="@+id/menu3" />
+
+    <Button
+        android:id="@+id/menu2"
+        android:layout_width="356dp"
+        android:layout_height="79dp"
+        android:background="@drawable/button_border"
+        android:text="@string/menu_2"
+        android:textSize="24dp"
+        android:textAllCaps="false"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/menu1"
+        android:layout_alignLeft="@+id/menu3"
+        android:layout_alignStart="@+id/menu3"
+        android:onClick="verDicas"/>
+
+    <Button
+        android:id="@+id/menu3"
+        android:layout_width="356dp"
+        android:layout_height="79dp"
+        android:background="@drawable/button_border"
+        android:text="@string/menu_3"
+        android:textAllCaps="false"
+        android:textSize="24dp"
+        android:layout_marginTop="46dp"
+        android:layout_below="@+id/menu2"
+        android:layout_centerHorizontal="true"
+        android:onClick="maps"/>
+
+</RelativeLayout>
