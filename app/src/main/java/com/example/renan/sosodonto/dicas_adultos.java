@@ -4,7 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class dicas_adultos extends AppCompatActivity {
+public class Dicas_adultos extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 
+import com.example.renan.sosodonto.map.MapsActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -14,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void verDicas(View view){
-        Intent mintent = new Intent(MainActivity.this, dicas_menu.class);
+        Intent mintent = new Intent(MainActivity.this, Dicas_menu.class);
         startActivity(mintent);
     }
 

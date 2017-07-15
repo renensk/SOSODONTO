@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatDelegate;
 import android.view.View;
 
-public class dicas_criancas extends AppCompatActivity {
+public class Dicas_criancas extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.renan.sosodonto.dicas_menu">
+    tools:context="com.example.renan.sosodonto.Dicas_menu">
 
     <LinearLayout
         android:layout_width="match_parent"

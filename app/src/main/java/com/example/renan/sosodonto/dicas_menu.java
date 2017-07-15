@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 
-public class dicas_menu extends AppCompatActivity {
+public class Dicas_menu extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,12 +14,12 @@ public class dicas_menu extends AppCompatActivity {
     }
 
     public void dicasCrianca(View view){
-        Intent mintent = new Intent(dicas_menu.this, dicas_criancas.class);
+        Intent mintent = new Intent(Dicas_menu.this, Dicas_criancas.class);
         startActivity(mintent);
     }
 
     public void dicasAdulto(View view){
-        Intent mintent = new Intent(dicas_menu.this, dicas_adultos.class);
+        Intent mintent = new Intent(Dicas_menu.this, Dicas_adultos.class);
         startActivity(mintent);
     }
 
